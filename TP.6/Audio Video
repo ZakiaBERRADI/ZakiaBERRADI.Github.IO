@@ -1,0 +1,29 @@
+<body>
+   <h1>video en HTML5</h1>
+   <h2>Hymne nationale</h2>
+   <video   src="video/nachid.mp4"  controls>
+        votre navigateur ne supporte pas HTML5 video.
+   </video>
+   <video src="video/nachid.mp4" contols syle="width:300px;">
+        votre navigateur ne supporte pas HTML5 video.
+   </video>
+   <h2>Hymne nationale</h2>
+   <video  style="width:350px;" controls>
+         <source src="video/nachid.mp4" type="video/mp4">
+         <source src="video/nachid.webm" type"video/webm">
+         <source src="video/nachid.ogg" type="video/ogg">
+         votre navigateur ne supporte pas HTML5 video.
+   </video>
+   <h2>Fichier audio</h2>
+   <audio  src="audio/son.mp3"  controls>
+          votre navigateur ne supporte pas HTML5 audio.
+   </audio>
+   <h2>Fichier audio</h2>
+   <audio controls>
+        <source src="audio/son.mp3" type="audio/mpeg">
+        <source src="audio/son.wav"type="audio/wav">
+        <source src="audio/son.ogg" type="audio/ogg">
+        votre navigateur ne supporte pas HTML5 audio.
+    </audio>
+
+</body>
